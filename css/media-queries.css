@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     font-family: sans-serif;
-
+    padding: .5em;
 }
 
 h1 {
@@ -31,8 +31,10 @@ ul.nav-links {
 }
 
 .nav-links li {
-    margin: .5em;
-    padding: .5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding-top: .5em;
+    padding-bottom:.5em;
     width: 100%;
     background: #CCCCCC;
     text-align: center;
@@ -53,4 +55,8 @@ ul.nav-links {
 footer{
     /*align-self: flex-end;*/
     align-content: flex-start;
+}
+
+.sub-section{
+    font-style: italic;
 }
